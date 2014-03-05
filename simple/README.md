@@ -45,5 +45,11 @@ Use Device:
 ### www/index.html
 Basic html elements
 ### www/opendata.js
-Do ajax against SODA API and injects result items into <ul>
+Do ajax against SODA API and injects result items into unorder list.
+
+Change the following line to target a different dataset
+    
+    var url = 'http://data.raleighnc.gov/resource/guyh-emm5.json?$order=inc_datetime desc'; 
+
+    
 
