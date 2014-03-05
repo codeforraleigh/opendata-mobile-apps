@@ -1,6 +1,10 @@
 
 (function($, document) {
-var url = 'http://data.raleighnc.gov/resource/guyh-emm5.json?$order=inc_datetime desc'; 
+var url;
+//Crime Daily Data
+url = 'http://data.raleighnc.gov/resource/guyh-emm5.json?$order=inc_datetime desc'; 
+//Building Permit Data
+//url = 'http://data.raleighnc.gov/resource/b9nv-68kk.json';
 var dataid = '#data-list';    
 $(document).ready(fetchdata(url));
 
